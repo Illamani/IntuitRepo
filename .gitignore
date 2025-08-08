@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Intuit.Application/bin/Debug/net8.0
+/Intuit.Application/obj
+/Intuit.Models/bin/Debug/net8.0
+/Intuit.Models/obj
+/Intuit.Persistence/bin/Debug/net8.0
+/Intuit.Persistence/obj
