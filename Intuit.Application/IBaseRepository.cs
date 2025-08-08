@@ -4,13 +4,13 @@ namespace Intuit.Application;
 
 public interface IBaseRepository<T> where T : BaseEntity
 {
-	void Create(T entity);
+	Task CreateAsync(T entity, CancellationToken cancellationToken);
 
-	void Update(T entity);
+	Task UpdateAsync(T entity, CancellationToken cancellationToken);
 
 	void Delete(T entity);
 
-	Task<T> Get(int id, CancellationToken cancellationToken);
+	Task<T> GetAsync(int id, CancellationToken cancellationToken);
 
-	Task<List<T>> GetAll(CancellationToken cancellationToken);
+	Task<List<T>> GetAllAsync(CancellationToken cancellationToken);
 }
