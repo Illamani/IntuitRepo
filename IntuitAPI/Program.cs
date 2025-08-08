@@ -1,6 +1,6 @@
-using Microsoft.EntityFrameworkCore;
 using Intuit.Persistence;
 using Intuit.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
